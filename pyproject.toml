@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "anki-mate"
+version = "0.1.0"
+description = ""
+authors = ["adaxiang <adaxiang3104@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.8.2"
+dictionary-wrapper = "0.1.4"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+types-requests = "^2.32.0.20240712"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

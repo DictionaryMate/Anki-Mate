@@ -1,0 +1,2 @@
+class AnkiClientException(Exception):
+    pass
