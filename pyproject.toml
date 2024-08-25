@@ -10,10 +10,12 @@ python = "^3.12"
 pydantic = "^2.8.2"
 dictionary-wrapper = "0.1.4"
 python-dotenv = "^1.0.1"
+textual = "^0.77.0"
 
 
 [tool.poetry.group.dev.dependencies]
 types-requests = "^2.32.0.20240712"
+textual-dev = "^1.5.1"
 
 [build-system]
 requires = ["poetry-core"]

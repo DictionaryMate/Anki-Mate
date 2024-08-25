@@ -1,0 +1,29 @@
+Button {
+    margin-top: 1;
+    margin-bottom: 1;
+    width: 100%;
+}
+
+#instruction {
+    margin-top: 1;
+    margin-bottom: 1;
+    background: $secondary-background;
+}
+
+ScrollableContainer {
+    background: $boost;
+    padding: 1;
+}
+
+RadioSet {
+    width: 100%;
+}
+
+#progress_bar {
+    width: 100%;
+}
+
+Log {
+    background: $primary-background-darken-3;
+    min-height: 10;
+}
