@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "anki-mate"
 version = "0.1.0"
-description = ""
+description = "Command line tool to importing English words to Anki"
 authors = ["adaxiang <adaxiang3104@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/DictionaryMate/Anki-Mate"
+license = "MIT"
+packages = [
+    { include = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -20,3 +25,6 @@ textual-dev = "^1.5.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ankiMate = "src.anki_mate_run:main"

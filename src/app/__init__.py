@@ -2,9 +2,9 @@ import os
 
 from dictionary_wrapper import get_word_field_async  # type: ignore
 
-from app.anki_clients.client import AnkiClient
-from app.anki_clients.utils import convert_word_to_anki_format
-from app.logger import Logger
+from src.app.anki_clients.client import AnkiClient
+from src.app.anki_clients.utils import convert_word_to_anki_format
+from src.app.logger import Logger
 
 logger = Logger()
 

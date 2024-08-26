@@ -2,13 +2,13 @@ from datetime import datetime
 
 from dictionary_wrapper.models.common_models import WordField  # type: ignore
 
-from app import config
-from app.exceptions import AnkiClientException
-from app.models.aki_dto import AnkiDto
-from app.models.anki_action import AnkiAction
-from app.models.anki_audio import AnkiAudio
-from app.models.anki_field import AnkiField
-from app.models.anki_note import AnkiNote
+from src.app import config
+from src.app.exceptions import AnkiClientException
+from src.app.models.aki_dto import AnkiDto
+from src.app.models.anki_action import AnkiAction
+from src.app.models.anki_audio import AnkiAudio
+from src.app.models.anki_field import AnkiField
+from src.app.models.anki_note import AnkiNote
 
 
 def handle_response(response: dict):

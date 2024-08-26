@@ -1,9 +1,9 @@
 from pydantic import BaseModel, Field
 
-from app import config
-from app.models.anki_audio import AnkiAudio
-from app.models.anki_deck_option import AnkiDeckOption
-from app.models.anki_field import AnkiField
+from src.app import config
+from src.app.models.anki_audio import AnkiAudio
+from src.app.models.anki_deck_option import AnkiDeckOption
+from src.app.models.anki_field import AnkiField
 
 
 class AnkiNote(BaseModel):

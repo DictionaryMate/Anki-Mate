@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-from app import config
+from src.app import config
 
 
 class _AnkiDeckDuplicateScopeOption(BaseModel):

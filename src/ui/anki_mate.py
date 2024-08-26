@@ -17,8 +17,8 @@ from textual.widgets import (
     Static,
 )
 
-from app import process_one_word
-from ui.models.input_option import InputOptionEnum
+from src.app import process_one_word
+from src.ui.models.input_option import InputOptionEnum
 
 load_dotenv()
 dictionary_api_key = str(os.getenv("MW_DICT_KEY"))

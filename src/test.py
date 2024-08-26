@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-from app import process_one_word
+from src.app import process_one_word
 
 load_dotenv()
 dictionary_api_key = os.getenv("MW_DICT_KEY")

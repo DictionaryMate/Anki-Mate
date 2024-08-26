@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 
-from app import config
-from app.models.anki_action import AnkiAction
+from src.app import config
+from src.app.models.anki_action import AnkiAction
 
 
 class AnkiDto(BaseModel):

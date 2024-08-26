@@ -1,10 +1,10 @@
 import requests
 
-from app import config
-from app.anki_clients.utils import form_payload, get_card_templates, handle_response
-from app.exceptions import AnkiClientException
-from app.models.anki_action import AnkiAction
-from app.models.anki_note import AnkiNote
+from src.app import config
+from src.app.anki_clients.utils import form_payload, get_card_templates, handle_response
+from src.app.exceptions import AnkiClientException
+from src.app.models.anki_action import AnkiAction
+from src.app.models.anki_note import AnkiNote
 
 
 class AnkiClient:
