@@ -30,4 +30,4 @@ archive.zip
 .DS_Store
 *.log
 
-.env
+/.env
