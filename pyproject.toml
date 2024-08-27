@@ -11,7 +11,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "~3.12"
 pydantic = "^2.8.2"
 dictionary-wrapper = "0.1.4"
 python-dotenv = "^1.0.1"
@@ -27,4 +27,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-ankiMate = "src.anki_mate_run:main"
+ankiMate = "src.main:main"
