@@ -13,11 +13,12 @@ WORDIK_API_KEY = xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 - run the app using `poetry run ankiMate`
 
 ## UI
-- [AnkiMate](https://github.com/DictionaryMate/Anki-Mate/blob/main/ui.png)
+- ![AnkiMate](ui.png)
 
 ## Anki Card
-- Learning Card
-    - [English](https://github.com/DictionaryMate/Anki-Mate/blob/main/anki_card1.png)
-- Testing Card
-    - [English](https://github.com/DictionaryMate/Anki-Mate/blob/main/anki_card2.png)
+### Learning Card
+![English](anki_card1.png)
+
+### Testing Card
+![English](anki_card2.png)
 
